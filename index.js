@@ -23,8 +23,9 @@ app.post("/links", function(req,res){
   db.Riley.create({ inputURL:req.body.url}).then(function(data){
     var hash = hashids.encode(data.id);
     data.outputURL = hash;
-    data.save().then(function(result){
-      res.render("result", {result: result.outputURL});
+    data.save().then(function(result){ {
+      res.render("result", {result: req.headers.host+"/"+result.outputURL});
+    }
     })
   });
 })
