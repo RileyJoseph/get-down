@@ -1,0 +1,35 @@
+.jumbotron{
+  color: white;
+  font-family: Courier New, Courier, monospace;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.3999996185303px;
+  background-color: black;
+}
+h1{
+  color: red;
+}
+
+h2{
+font-family: Courier New, Courier, monospace;
+  color: white;
+}
+
+#theButton{
+  background-color: #6600FF;
+  border-color: #6600FF;
+}
+
+#output{
+  font-family: Courier New, Courier, monospace;
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+hr{
+  border-top: 2px solid black;
+}
